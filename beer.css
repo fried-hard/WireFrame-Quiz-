@@ -3,18 +3,26 @@ body {
     font-family: arial;
     background: white;
     line-height: 1.5em;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5055e59ce4b02b42cb30023c/1536088527945-XC41ULM6L45CMWRVF3XV/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/BuckingWild1.jpg?format=1500w");
+    
 }
-
-
 
 header h1 {
     display: flex;
-    color: #fed16c;
+    color: black;
     padding: 20px;
     justify-content: center;
     font-size: 50px;
-    text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+   
+}
+
+#start {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 45px;
+    font-size: 17px;
+    justify-content: center;
+  
 }
 
 .container1 {
@@ -28,9 +36,13 @@ header h1 {
     height: 400px;
     margin: auto;
     opacity: 0.9;
-  }
+}
 
-button {
+
+
+  
+
+#submit, #next {
       display: flex;
       width: 300px;
       height: 45px;
@@ -39,10 +51,10 @@ button {
  }
 
 
-  .question, .score {
-     display: flex;
-     justify-content: center;
 
+
+  .question, .score {
+  text-align: center;
 }
 
 
