@@ -4,50 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beer Quiz Start</title>
+    <title>Beer Lover Quiz</title>
+    <link rel="stylesheet" href="beer.css"> 
 </head>
-
-
-<style>
-        body {
-            display: flex;
-            margin: auto;
-            font-size: 17px;
-            font-family: arial;
-            background: #f4f4f4;
-            line-height: 1.5em;
-        
-        }
-         .container {
-            width: 90%;
-            margin: auto;
-            padding: 10px;
-        }
-        
-        h1 {
-            position: relative;
-            top: 150px;
-            text-align: center;
-           
-        }
-
-        #start {
-            width: 300px;
-            height: 45px;
-            font-size: 17px;
-        }
-
-
-        
-            </style>
 <body>
-    <div class="container">
-    <h1>Are you a true Beer Nerd?<h1>
-            <button onclick="location.href= 'quizPage.html'" id = "start">Click to take Quiz!</button>
-    </div>
+        <header>
+        <h1>If you love beer, help me pair it with food!</h1>
+        </header>
+        
 
+
+           <h2 class ="question">Question 1/6</h2>
+                    <h2 class ="score">Score 0/6</h2>
+          
+            <div class="container1">
+                <h2>I feel like having a slice of Sausage. What beer pairs best with my slice?</h2> 
+                <form>
+                  <input type="radio" id ="choices" name ="answer1">Stout<br>
+                  <input type="radio" id ="choices" name ="answer2">IPA<br>
+                  <input type="radio" id ="choices" name ="answer3">Doppelbock<br>
+                  <input type="radio" id ="choices" name ="answer4">Cider<br>
+                </form>
+                
+                <button onclick="location.href= 'results.html'" id ="submit">Submit</button>
+                <button id ="next">Next</button> 
+            </div>
+
+            
+
+
+
+    
 </body>
 </html>
-
-
-
